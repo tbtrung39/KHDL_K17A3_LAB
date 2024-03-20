@@ -1,0 +1,6 @@
+a = float(input('Nhap a: '))
+b = float(input('Nhap b: '))
+c = float(input('Nhap c: '))
+x = round(-b/(2*a), 2)
+y = round(a*x**2 + b*x + c, 2)
+print(f'Dinh cua phuong trinh co toa do x = {x}, y = {y}')

@@ -1,0 +1,6 @@
+x = int(input('Nhap toa do x: '))
+y = int(input('Nhap toa do y: '))
+z = int(input('Nhap toa do z: '))
+print(f"Toa do cua diem doi xung qua mat phang Oxy la x = {x}, y = {y}, z = {-z}")
+print(f"Toa do cua diem doi xung qua mat phang Oyz la x = {-x}, y = {y}, z = {z}")
+print(f"Toa do cua diem doi xung qua mat phang Oxz la x = {x}, y = {-y}, z = {z}")
