@@ -5,4 +5,4 @@ dien_tich_toan_phan = round((2 * 3.14 * ban_kinh * chieu_cao) + (2 * 3.14 * ban_
 the_tich = round(3.14* ban_kinh**2 * chieu_cao, 2)
 print(f"Diện tích xung quanh: {dien_tich_xung_quanh}")
 print(f"Diện tích toàn phần: {dien_tich_toan_phan}")
-print(f"Thể tích: {the_tich}")
+print(f"Thể tích: {the_tich}") 
