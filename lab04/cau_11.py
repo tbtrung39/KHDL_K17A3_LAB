@@ -43,5 +43,4 @@ while True:
         print(i,end='',flush=True)
         time.sleep(0.7)
     print('cảm ơn bạn đã đến với cửa hàng của tôi!')
-
     break

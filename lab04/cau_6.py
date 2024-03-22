@@ -36,4 +36,3 @@ while n>0:
     if l==9:
         kt=k+kt
 print(kt)
-      

@@ -5,4 +5,4 @@ d=b
 while b!=0:
     a,b=b,a%b
 bcnn=c*d/a
-print(f'bội chung nhỏ nhất của {c} và {d} là: {int(bcnn)}')
+print(f'bội chung nhỏ nhất của {c} và {d} là: {int(bcnn)}') 

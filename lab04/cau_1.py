@@ -25,4 +25,4 @@ while i <= 2 * n:
 
 print("Tổng S4:", s4)
 print("Tổng S5:", s5)
-print("Tổng S6:", s6)
+print("Tổng S6:", s6) 

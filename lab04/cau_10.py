@@ -23,4 +23,3 @@ for i in chuoi:
         print('chín ',end='')
     if i==".":
         print("chấm ",end='')
-    

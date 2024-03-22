@@ -11,3 +11,4 @@ while abs(term) > 1e-4:
     sum += term
 
 print(f"Giá trị gần đúng của cos({math.degrees(x)}) sử dụng khai triển Taylor là {sum}")
+ 
