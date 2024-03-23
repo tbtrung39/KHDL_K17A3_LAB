@@ -1,0 +1,23 @@
+a = float(input("Nhap mot so : "))
+b = float(input("Nhap mot so: "))
+c = float(input("Nhap mot so: "))
+a1 = float(input("Nhap mot so: "))
+b1 = float(input("Nhap mot so: "))
+c1= float(input("Nhap mot so: "))
+a2= float(input("Nhap mot so: "))
+b2 = float(input("Nhap mot so: "))
+c2 = float(input("Nhap mot so: "))
+A=  [a,b,c]
+B = [a1,b1,c1]
+C = [a2,b2,c2]
+a_trong_tam = (a+a1+a2)/3
+a_trong_tam =  round(a_trong_tam,2)
+b_trong_tam = (b+b1+b2)/3
+b_trong_tam =  round(b_trong_tam,2)
+c_trong_tam = (c+c1+c2)/3
+c_trong_tam =  round(c_trong_tam,2)
+trong_tam = [a_trong_tam,b_trong_tam,c_trong_tam]
+print(f'A = {A}')
+print(f'B = {B}')
+print(f'C = {C}')
+print(f'Trọng tâm là: {trong_tam}')
