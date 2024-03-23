@@ -1,0 +1,12 @@
+a1=int(input("nhap vao mot so :"))
+a2=int(input("nhap vao mot so :"))
+a3=int(input("nhap vao mot so :"))
+b1=int(input("nhap vao mot so :"))
+b2=int(input("nhap vao mot so :"))
+b3=int(input("nhap vao mot so :"))
+c1=int(input("nhap vao mot so :"))
+c2=int(input("nhap vao mot so :"))
+c3=int(input("nhap vao mot so :"))
+trong_tam_tam_giac=((a1+b1+c1)+(a2+b2+c2)+(a3+b3+c3))/3
+trong_tam_tam_giac=round(trong_tam_tam_giac,2)
+print("trong tam tam giac la:",trong_tam_tam_giac)
