@@ -1,0 +1,7 @@
+x = int(input("nhập tọa độ x: "))
+y = int(input("Nhập tọa độ y: "))
+z = int(input("Nhập tọa độ z: "))
+print(f"Tọa độ điểm A là: {x,y,z}")
+print(f"Tọa độ đối xứng của A qua mp Oxy là: {x, y, -z}")
+print(f"Tọa độ đối xứng của A qua mp Oyz là: {-x, y, z}")
+print(f"Tọa độ đối xứng của A qua mp Oxz là: {x, -y, z}")
