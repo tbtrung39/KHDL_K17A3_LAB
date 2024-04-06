@@ -1,0 +1,8 @@
+x1 = int(input("nhập số x1:"))
+y1 = int(input("nhập số y1:"))
+z1 = int(input("nhập số z1:"))
+x2 = int(input("nhập số x2:"))
+y2 = int(input("nhập số y2:"))
+z2 = int(input("nhập số z2:"))
+tich_vo_huong = (x1*x2)+(y1*y2)+(z1*z2)
+print(f"tích vô hướng = {tich_vo_huong}")

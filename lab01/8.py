@@ -1,0 +1,9 @@
+x = int(input("nhập vào x:"))
+y = int(input("nhập vào y:"))
+z = int(input("nhập vào z:"))
+Oxy = x, y, -z
+Oxz = x, -y, z
+Oyz = -x, y, z
+print(f"tọa độ đx của Oxy = {Oxy}")
+print(f"tọa độ đx của Oxz = {Oxz}")
+print(f"tọa độ đx của Oyz = {Oyz}")

@@ -1,0 +1,6 @@
+a = int(input("nhập số:"))
+b = int(input("nhập số:"))
+c = int(input("nhập số:"))
+x = round(-b/a*2, 2)
+y = round(a*x**2+b*x+c, 2)
+print(f"hoành độ của đỉnh = {x}, tung độ của đỉnh = {y}")
