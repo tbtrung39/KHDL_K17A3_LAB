@@ -1,6 +1,18 @@
-chuoi = input("Nhập vào một chuỗi: ").lower()
-chuoi_moi = ""
-for c in chuoi:
-    if ("0" <= c <= "9" or ("a" <= c <="f")):
-        chuoi_moi +=c
-print("Chuỗi trong hệ hex là: ",chuoi_moi.upper())
+string = input("Nhập chuỗi: ")
+
+is_hex = True
+for char in string:
+    if char not in "0123456789ABCDEF":
+        is_hex = False
+        break
+
+if is_hex:
+    decimal = int(string, 16)
+    print(f"Chuỗi là chuỗi Hex, số thập phân tương ứng là: {decimal}")
+else:
+    new_string = ""
+    for char in string:
+        if char in "0123456789ABCDEF":
+            new_string += char
+    decimal = int(new_string, 16)
+    print(f"Chuỗi không phải là chuỗi Hex, số thập phân tương ứng là: {decimal}")
