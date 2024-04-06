@@ -1,0 +1,5 @@
+doan_van_ban = input("Nhập đoạn văn bản: ")
+cac_tu = doan_van_ban.split()
+tu_can_tim = input("Nhập từ cần tìm: ")
+so_lan_xuat_hien = cac_tu.count(tu_can_tim)
+print(f"Từ '{tu_can_tim}' xuất hiện {so_lan_xuat_hien} lần trong đoạn văn bản.")
