@@ -18,17 +18,16 @@ for i in a:
     if a[i]<0:
         value = a[i]
         break
-print(value)
+vitri = a.index(value)+1
+print("Vi tri phan tu am dau tien la",vitri)
 #Cau4
-value1 = 0
-for i in a:
-    if a[i]<0:
-        continue
-    elif a[i]>0:
-        if a[i]==len(a)-1:
-         value1 =a[i]
-         break
-print(value1)
+a = [2,-4,1,9,-3,6,3,-2,6,8]
+for i in range(len(a)-1, -1, -1):
+    if a[i] > 0:
+        print("Phần tử dương cuối cùng là:", a[i])
+        break
+if i == -1:
+    print("List không có phần tử dương nào")
 
 #Cau5
 q = max(a)
