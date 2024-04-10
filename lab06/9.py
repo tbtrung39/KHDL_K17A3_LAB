@@ -1,0 +1,1 @@
+print('không phải làm')
