@@ -1,0 +1,10 @@
+import random
+n=int(input('nhập số lượng phần tử:'))
+a= set(random.uniform(0,100) for _ in range(n))
+print('tập hợp a :',a)
+min=min(a)
+max=max(a)
+sum=sum(a)
+print('phần tử nhỏ nhất là :',min)
+print('phần tử lớn nhất là :',max)
+print('tổng các phần tử là :',sum)
