@@ -1,0 +1,9 @@
+n = int(input("Nhập giá trị n: "))
+while n <= 0:
+    n = int(input("Giá trị không hợp lệ. Nhập lại n (n > 0): "))
+S4 = 0
+i = 1
+while i <= n:
+    S4 += i**2  
+    i += 1 
+print(f"S4 = {S4}")
