@@ -1,12 +1,12 @@
 def tinh_luong(luong_co_ban,he_so):
     return luong_co_ban * he_so
+
 def xuat_ket_qua(ho_ten, que_quan,tnct, tong_luong):
     print("Họ và tên: ",ho_ten)
     print("Quê quán: ",que_quan)
     print("Thâm niên công tác: ",tnct)
     print("Lương của nhân viên là: ",tong_luong)
     
-
 ho_ten = input("Nhập họ tên của nhân viên: ")
 que_quan = input("Nhập quê quán của nhân viên: ")
 tnct = int(input("Nhập thâm niên công tác: "))
