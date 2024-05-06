@@ -1,0 +1,1 @@
+print('một con vịt xòe ra hai cái cánh')
