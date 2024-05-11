@@ -1,0 +1,10 @@
+import random
+n=int(input("nhap so luong phan tu: "))
+a = set(random.uniform(0,100) for _ in range(n))
+print(" tap hop a: ", a)
+min = min(a)
+max=max(a)
+sum=sum(a)
+print(" phan tu nho nhat la", min)
+print(" phan tu lon nhat la", max)
+print(" tong cac phan tu la", sum)
