@@ -1,0 +1,1 @@
+n = int(input("Nhap so can tim"))
