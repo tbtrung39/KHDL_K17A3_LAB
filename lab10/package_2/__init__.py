@@ -1,0 +1,1 @@
+from package_2 import my_square

@@ -1,0 +1,10 @@
+import package_4
+a = int(input("Nhập hệ số 1 của phương trình bậc nhất: "))
+b = int(input("Nhập hệ số 2 của phương trình bậc nhất: "))
+nghiem_pt1 = package_4.gpt.phuong_trinh_bac_nhat(a,b)
+print(f"Nghiệm của phương trình bậc nhất 1 ẩn là: {nghiem_pt1}")
+d = int(input("Nhập hệ số 1 của phương trình bậc hai: "))
+e = int(input("Nhập hệ số 2 của phương trình bậc hai: "))
+f = int(input("Nhập hệ số 3 của phương trình bậc hai: "))
+nghiem_pt2 = package_4.gpt.phuong_trinh_bac_hai(d,e,f)
+print(f"Nghiệm của phương trình bậc hai là: {nghiem_pt2}")
