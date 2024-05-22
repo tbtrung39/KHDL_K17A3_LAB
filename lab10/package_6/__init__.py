@@ -1,0 +1,1 @@
+from package_6 import doicoso2 as dcs2
