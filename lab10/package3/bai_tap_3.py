@@ -1,0 +1,10 @@
+import sohoc
+a=int(input("Nhap so nguyen a: "))
+b=int(input("Nhap so nguyen b: "))
+ucln=sohoc.Ucln(a, b)
+print(f"Uoc chung lon nhat cua 2 so nguyen a va b la: {ucln}")
+bcnn=sohoc.Bcnn(a, b)
+print(f"Boi chung nho nhat cua 2 so nguyen a va b la: {bcnn}")
+n=int(input("Nhap so nguyen n: "))
+sum_divisor=sohoc.SumDivisor(n)
+print(f"Tong cac uoc cua {n} la: {sum_divisor}")
