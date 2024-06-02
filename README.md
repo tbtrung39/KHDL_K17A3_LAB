@@ -9,6 +9,7 @@ git clone https://github.com/tbtrung39/KHDL_K17A3_LAB.git
 ```
 
 **LƯU Ý:** Nếu chưa sử dụng Gitbash trên máy bao giờ, Gitbash lúc này sẽ yêu cầu đăng nhập vào tài khoản git. Bắt buộc phải sử dụng tài khoản git gắn với gmail sinh viên được nhà trường cấp
+
 ## II. Thực hiện tạo nhánh cho cá nhân
 
 - Sau khi clone repository về máy thành công tiến hành tạo **NHÁNH CHÍNH** theo **ĐÚNG** format: `<ROOT_lớp_họ_và_tên_msv>`. Format phải **CHÍNH XÁC** giống như sau: `ROOT_KHDL17A3HN_Ngo_Quang_Dai_1122334455`
@@ -55,6 +56,8 @@ git push origin Ngo_Quang_Dai_1122334455/lab01
 
 **LƯU Ý:** Kiểm tra kĩ nhánh hiện tại xem mình có đúng đang ở nhánh làm bài tập của mình không trước khi thực hiện. Nếu push trực tiếp vào nhánh **MAIN**, **NHÁNH CHÍNH** hoặc **NHÁNH CỦA SINH VIÊN KHÁC**, vi phạm sinh viên sẽ bị trừ điểm quá trình.
 **LƯU Ý:** Mỗi lab yêu cầu sinh viên làm một nhánh riêng và push commit mỗi bài lab chính xác vào nhánh đó.
+
+**LƯU Ý:** Checkout về **NHÁNH CHÍNH** rồi mới tạo nhánh làm bài tập mới
 
 ## IV. Tạo pull request gửi yêu cầu merge vào NHÁNH CHÍNH đã tạo ở trên
 
