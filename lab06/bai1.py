@@ -25,5 +25,3 @@ if vi_tri is not None:
     print('vi tri ', vi_tri)
 else:
     print('Không tìm thấy số âm trong danh sách')
-           
-    
