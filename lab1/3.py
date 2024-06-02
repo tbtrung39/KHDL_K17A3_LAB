@@ -1,0 +1,8 @@
+a=float(input("giá trị 1 :"))
+b=float(input("giá trị 2 :"))
+x=(a,b)
+c=float(input("giá trị 3 :"))
+d=float(input("giá trị 4 :"))
+y=(c,d)
+t_v_h=(a*c+b*d)
+print("tích vô hướng =",t_v_h)

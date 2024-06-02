@@ -1,0 +1,6 @@
+x=float(input("nhập giá trị ="))
+y=float(input("nhập giá trị ="))
+z=float(input("nhập giá trị ="))
+t_d=(x,y,z)
+t_d_d=(-x,-y,-z)
+print("toạ độ điểm đối xứng của ",t_d,"là",t_d_d)
