@@ -1,0 +1,2 @@
+import My_QuanLySinhvien.quanlysinhvien as quanlysinhvien
+print(quanlysinhvien.nhap_danh_sach_sinh_vien())
