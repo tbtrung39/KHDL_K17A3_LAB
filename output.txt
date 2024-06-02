@@ -1,0 +1,2 @@
+'charmap' codec can't encode character '\u1ed7' in position 3: character maps to <undefined>
+'charmap' codec can't encode character '\u1ed7' in position 3: character maps to <undefined>
