@@ -1,17 +1,17 @@
 sbd_phach = {}
-with open("Sbd_Ph.dat", "r") as file:
+with open("lab11/Sbd_Ph.dat", "r") as file:
     for line in file:
         sbd, phach = map(int,line.strip().split())
         sbd_phach[sbd] = phach
 
 sbd_ten = {}
-with open("Sbd_Ten.txt", "r") as file:
+with open("lab11/Sbd_Ten.txt", "r") as file:
     for line in file:
         sbd, ten = line.strip().split(maxsplit=1)
         sbd_ten[sbd] = ten
 
 phach_diem = {}
-with open("Phieu_Diem.txt", "r") as file:
+with open("lab11/Phieu_Diem.txt", "r") as file:
     for line in file:
         phach, diem = line.strip().split()
         phach_diem[phach] = float(diem)

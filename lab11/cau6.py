@@ -5,18 +5,18 @@ data = [
     [11, 1, 11, 253]
 ]
 
-with open("data.txt", "w") as files:
+with open("lab11/data.txt", "w") as files:
     for row in data:
         files.write(" ".join(map(str, row)) + "\n")
 
 
-with open("data.txt", "r") as files:
+with open("lab11/data.txt", "r") as files:
     lines = files.readlines()
     print('Dòng đầu tiên:', lines[0].strip())
     print('Dòng thứ ba:', lines[2].strip())
 
 print("\nNội dung của file:")
-with open('data.txt', 'r') as file:
+with open('lab11/data.txt', 'r') as file:
     print(file.read())
 
 
@@ -28,11 +28,11 @@ for i, row in enumerate(data):
         odd_matrix[i][j] = str(num)
 
 
-with open('ODD.txt', 'w') as file:
+with open('lab11/ODD.txt', 'w') as file:
     for row in odd_matrix:
         file.write(' '.join(row) + '\n')
 
 
-with open('ODD.txt', 'r') as file:
+with open('lab11/ODD.txt', 'r') as file:
     lines = file.readlines()
-    print('\nNội dung file ODD.txt:', lines[-1].strip())
+    print('\nNội dung file lab11/ODD.txt:', lines[-1].strip())

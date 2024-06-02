@@ -1,4 +1,4 @@
-with open("PASSENGER.IN",mode='r') as file:
+with open("lab11/PASSENGER.IN",mode='r') as file:
     line_1_in_data = file.readline()
     data = file.read().strip().split()
     weight = []
@@ -6,10 +6,10 @@ with open("PASSENGER.IN",mode='r') as file:
         calc = 0
         calc += int(numbers)
         weight.append(calc)
-with open("WEIGHT.OUT",mode='w') as file:
+with open("lab11/WEIGHT.OUT",mode='w') as file:
     for weight_info in data:
         file.write(weight_info)
-with open("CANCELED.OUT",mode='w') as file:
+with open("lab11/CANCELED.OUT",mode='w') as file:
     for cancel_info in data:
         if int(cancel_info) >=23:
             file.write(cancel_info)

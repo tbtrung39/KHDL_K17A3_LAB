@@ -1,4 +1,4 @@
-with open("f_in.dat", mode='r') as file:
+with open("lab11/f_in.dat", mode='r') as file:
     data = file.read().strip()
 
 numbers = list(map(int, data.split()))
