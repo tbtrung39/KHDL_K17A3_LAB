@@ -1,0 +1,10 @@
+import random
+n=int(input("Nhập số lượng phần tử của tập hợp A: "))
+tap_hop_A=set(random.uniform(0, 100) for _ in range(n))
+phan_tu_nho_nhat=min(tap_hop_A)
+phan_tu_lon_nhat=max(tap_hop_A)
+tong_cac_phan_tu=sum(tap_hop_A)
+print("Tập hợp A:", tap_hop_A)
+print("Phần tử nhỏ nhất của tập hợp A:", phan_tu_nho_nhat)
+print("Phần tửu lớn nhất của tập hợp A:", phan_tu_lon_nhat)
+print("Tổng các phần tử của tập hợp A:", tong_cac_phan_tu)
