@@ -1,0 +1,1 @@
+from package_1 import my_triangle 
